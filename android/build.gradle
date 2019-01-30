@@ -6,7 +6,7 @@ def DEFAULT_MIN_SDK_VERSION       = 16
 
 android {
     compileSdkVersion rootProject.hasProperty('compileSdkVersion') ? rootProject.compileSdkVersion : DEFAULT_COMPILE_SDK_VERSION
-    buildToolsVersion = '28.0.3'
+    buildToolsVersion = '26.0.2'
 
     defaultConfig {
         minSdkVersion rootProject.hasProperty('minSdkVersion') ? rootProject.minSdkVersion : DEFAULT_MIN_SDK_VERSION
