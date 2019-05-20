@@ -151,7 +151,7 @@ public class RNSyanImagePickerModule extends ReactContextBaseJavaModule {
                 .withAspectRatio(CropW, CropH)// int 裁剪比例 如16:9 3:2 3:4 1:1 可自定义
                 .hideBottomControls(isCrop)// 是否显示uCrop工具栏，默认不显示 true or false
                 .isGif(isGif)// 是否显示gif图片 true or false
-                .freeStyleCropEnabled(true)// 裁剪框是否可拖拽 true or false
+                .freeStyleCropEnabled(false)// 裁剪框是否可拖拽 true or false
                 .circleDimmedLayer(showCropCircle)// 是否圆形裁剪 true or false
                 .showCropFrame(showCropFrame)// 是否显示裁剪矩形边框 圆形裁剪时建议设为false   true or false
                 .showCropGrid(showCropGrid)// 是否显示裁剪矩形网格 圆形裁剪时建议设为false    true or false
@@ -159,7 +159,7 @@ public class RNSyanImagePickerModule extends ReactContextBaseJavaModule {
                 .cropCompressQuality(quality)// 裁剪压缩质量 默认90 int
                 .minimumCompressSize(100)// 小于100kb的图片不压缩
                 .synOrAsy(true)//同步true或异步false 压缩 默认同步
-                .rotateEnabled(true) // 裁剪是否可旋转图片 true or false
+                .rotateEnabled(false) // 裁剪是否可旋转图片 true or false
                 .scaleEnabled(true)// 裁剪是否可放大缩小图片 true or false
                 .selectionMedia(selectList) // 当前已选中的图片 List
                 //.videoQuality(0)// 视频录制质量 0 or 1 int
@@ -190,7 +190,7 @@ public class RNSyanImagePickerModule extends ReactContextBaseJavaModule {
                 .glideOverride(160, 160)// int glide 加载宽高，越小图片列表越流畅，但会影响列表图片浏览的清晰度
                 .withAspectRatio(CropW, CropH)// int 裁剪比例 如16:9 3:2 3:4 1:1 可自定义
                 .hideBottomControls(isCrop)// 是否显示uCrop工具栏，默认不显示 true or false
-                .freeStyleCropEnabled(true)// 裁剪框是否可拖拽 true or false
+                .freeStyleCropEnabled(false)// 裁剪框是否可拖拽 true or false
                 .circleDimmedLayer(showCropCircle)// 是否圆形裁剪 true or false
                 .showCropFrame(showCropFrame)// 是否显示裁剪矩形边框 圆形裁剪时建议设为false   true or false
                 .showCropGrid(showCropGrid)// 是否显示裁剪矩形网格 圆形裁剪时建议设为false    true or false
@@ -198,7 +198,7 @@ public class RNSyanImagePickerModule extends ReactContextBaseJavaModule {
                 .cropCompressQuality(quality)// 裁剪压缩质量 默认90 int
                 .minimumCompressSize(100)// 小于100kb的图片不压缩
                 .synOrAsy(true)//同步true或异步false 压缩 默认同步
-                .rotateEnabled(true) // 裁剪是否可旋转图片 true or false
+                .rotateEnabled(false) // 裁剪是否可旋转图片 true or false
                 .scaleEnabled(true)// 裁剪是否可放大缩小图片 true or false
                 .forResult(PictureConfig.CHOOSE_REQUEST);//结果回调onActivityResult code
     }
