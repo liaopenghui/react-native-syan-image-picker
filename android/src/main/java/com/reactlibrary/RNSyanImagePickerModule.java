@@ -133,7 +133,7 @@ public class RNSyanImagePickerModule extends ReactContextBaseJavaModule {
         }
         Activity currentActivity = getCurrentActivity();
         PictureSelector.create(currentActivity)
-                .openGallery(PictureMimeType.ofImage())//全部.PictureMimeType.ofAll()、图片.ofImage()、视频.ofVideo()、音频.ofAudio()
+                .openGallery(PictureMimeType.ofImage())//全部.PictureMimeType.ofAll()、图片.ofImage()、视频.ofVideo()、音频.ofAudio()lphtest
                 .maxSelectNum(imageCount)// 最大图片选择数量 int
                 .minSelectNum(0)// 最小选择数量 int
                 .imageSpanCount(4)// 每行显示个数 int
